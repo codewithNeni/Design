@@ -51,7 +51,7 @@ body {
     line-height: 98px;
     text-shadow: 2px 2px 50px #001538;
     margin-top: 3vh;
-    margin-left: 25px;
+    margin-left: 50px;
     width: 357px;
     
 
@@ -82,7 +82,9 @@ body {
     height: 9vh;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 1vw;
+    font-size: 0.9vw;
+    margin-left: 8px;
+
 }
 
 .info ul {
@@ -105,7 +107,7 @@ body {
     height: 9vh;
     margin-top: 2.3vh;
     justify-content: space-evenly;
-    margin-left: 20px;
+    margin-left: 45px;
 }
 
 .email {
