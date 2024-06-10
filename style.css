@@ -133,7 +133,7 @@ body {
 
 }
 
-@media (min-width:1400px) and (max-width:1900px) {
+@media (min-width:1800px) and (max-width:2000px) {
     .email {
         background-image: url(Assets/email-bg.png);
         display: flex;
