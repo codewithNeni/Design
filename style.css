@@ -19,18 +19,10 @@ body {
     left: 638px;
     position: absolute;
     z-index: 1;
-    /* filter:contrast(10%); */
-    filter: brightness(100%);
     height: 110vh;
 }
-.top-left img{
-    top: 0px;
-    left: 638px;
-    position: relative;
-    z-index: 1;
-    filter:contrast(20%);
 
-}
+
 .hero {
     background-image: url(Assets/hero-bg-img.png);
     background-size: cover;
@@ -139,6 +131,9 @@ body {
 
 
 }
+.mobile-img{
+    display: none;
+}
 .email p{
     font-family: "Poppins", sans-serif;
     font-size: 1vw;
@@ -162,5 +157,99 @@ body {
     
     
     }
+    .mobile-img{
+        display: none;
+    }
+    
+}
+@media (max-width:700px) {
+body{
+    height: 140vh;
+}
+    .hero{
+        display: flex;
+        flex-direction: column;
+        background-image: url(Assets/Android\ Large\ -\ 2.png);
+        height: 134vh;
+        background-position: center;
+       
+        background-size: cover;
+    }
+    .hero-left{
+        display: none;
+    }
+    .hero-left img{
+        display:none;
+    }
+    .logo {
+        width: 100vw;
+        /* margin-top: 3vh; */
+        display: flex;
+        justify-content: center;
+    }
+    .hero-right img {
+        /* margin-top: 3vh; */
+        width: 40vw;
+        margin: 0 auto;
+    
+    }
+    .hero-right{
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .hero-right h1 {
+
+        font-family: 'myfont', sans-serif;
+        font-size: 18vw;
+        color: white;
+        line-height: 70px;
+        text-shadow: 6px 6px 10px #001538;
+        margin-top: 4vh;
+        margin-left: 5px;
+        width: 100%;
+        text-align: center;
+    }
+    .info {
+        display: none;
+    }
+    .images {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 40vh;
+        margin-top: 2.7vh;
+        justify-content: space-evenly;
+        /* background-color: red; */
+        margin-left: 30px;
+    }
+    
+.email {
+    background-image: url(Assets/email-bg.png);
+    width: 70vw;
+    display: flex;    
+    align-items: center;
+    margin-left: 65px;
+
+}
+.email img{
+    height: 34px;
+    width: 34px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+.email p{
+    font-family: "Poppins", sans-serif;
+    font-size: 3.1vw;
+}
+.mobile-img {
+    display: block;
+width: 100vw;
+}
+.mobile-img img{
+    height: 100vw;
+    width: 100vw;
+}
     
 }
