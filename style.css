@@ -166,6 +166,7 @@ body {
 body{
     overflow-x: hidden;
     height: 135vh;
+    width: 100vw;
 }
 .text-lightning{
     display: none;
@@ -174,7 +175,7 @@ body{
         display: flex;
         flex-direction: column;
         background-image: url(Assets/Android\ Large\ -\ 2.png);
-        height: 134vh;
+        height: 140.2vh;
         background-position: center;
        
         background-size: cover;
@@ -192,25 +193,25 @@ body{
         justify-content: center;
     }
     .hero-right img {
-        /* margin-top: 3vh; */
+        margin-top: 14px;
         width: 40vw;
         margin: 0 auto;
     
     }
     .hero-right{
         width: 100vw;
-        margin: 0 auto;
+        margin: 14px auto;
     }
     .hero-right h1 {
 
         font-family: 'myfont', sans-serif;
         font-size: 18vw;
         color: white;
-        line-height: 70px;
+        line-height: 60px;
         text-shadow: 6px 6px 10px #001538;
         margin-top: 4vh;
         margin-left: 5px;
-        width: 100%;
+        width: 96%;
         text-align: center;
     }
     .info {
@@ -221,7 +222,7 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 40vh;
+        height: 50vh;
         margin-top: 2.7vh;
         justify-content: space-evenly;
         /* background-color: red; */
@@ -234,11 +235,12 @@ body{
     display: flex;    
     align-items: center;
     margin-left: 65px;
+    height: 70vh;
 
 }
 .email img{
-    height: 34px;
-    width: 34px;
+    height: 20px;
+    width: 20px;
     margin-left: 0px;
     margin-right: 0px;
     
@@ -252,8 +254,8 @@ body{
 width: 100vw;
 }
 .mobile-img img{
-    height: 100vw;
-    width: 100vw;
+    height: 98vw;
+    width: 98vw;
 }
     
 }
