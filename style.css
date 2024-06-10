@@ -24,9 +24,9 @@ body {
 .hero {
     background-image: url(Assets/hero-bg-img.png);
     background-size: cover;
-    width: 100%;
+    width: 100vw;
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
     height: 100vh;
     display: flex;
 }
@@ -49,9 +49,9 @@ body {
     font-size: 130px;
     color: white;
     line-height: 98px;
-    text-shadow: 2px 2px 50px #001538;
+    text-shadow: 3px 3px 20px #001538;
     margin-top: 3vh;
-    margin-left: 50px;
+    margin-left: 35px;
     width: 357px;
     
 
@@ -82,7 +82,7 @@ body {
     height: 9vh;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 0.9vw;
+    font-size: 1vw;
     margin-left: 8px;
 
 }
@@ -99,6 +99,8 @@ body {
 .info p {
     color: white;
     font-family: "Poppins", sans-serif;
+    font-size: 1vw;
+    font-weight:500 ;
 }
 
 .images {
@@ -107,7 +109,7 @@ body {
     height: 9vh;
     margin-top: 2.3vh;
     justify-content: space-evenly;
-    margin-left: 45px;
+    margin-left: 30px;
 }
 
 .email {
