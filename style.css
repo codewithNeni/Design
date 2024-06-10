@@ -46,13 +46,13 @@ body {
 .hero-right h1 {
 
     font-family: 'myfont', sans-serif;
-    font-size: 120px;
+    font-size: 130px;
     color: white;
     line-height: 98px;
     text-shadow: 2px 2px 50px #001538;
     margin-top: 3vh;
     margin-left: 25px;
-    width: 337px;
+    width: 357px;
     
 
 }
@@ -100,11 +100,12 @@ body {
 }
 
 .images {
-    width: 50vw;
+    width: 700px;
     display: flex;
     height: 9vh;
     margin-top: 2.3vh;
     justify-content: space-evenly;
+    margin-left: 20px;
 }
 
 .email {
