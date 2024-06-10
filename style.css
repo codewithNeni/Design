@@ -132,3 +132,23 @@ body {
     font-family: "Poppins", sans-serif;
 
 }
+
+@media (min-width:1500px) and (max-width:1900px) {
+    .email {
+        background-image: url(Assets/email-bg.png);
+        display: flex;
+        background-size: cover;
+        color: white;
+        font-size: 1.2vw;
+        align-items: center;
+        width: 22vw;
+        justify-content: space-evenly;
+        border-radius: 31px;
+        height: 6.5vh;
+        margin-top: 6vh;
+        margin-left: 28vw;
+    
+    
+    }
+    
+}
