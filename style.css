@@ -23,7 +23,7 @@ body {
 
 .hero {
     background-image: url(Assets/hero-bg-img.png);
-    background-size: auto;
+    background-size: cover;
     width: 100vw;
     background-repeat: no-repeat;
     /* background-position: center; */
