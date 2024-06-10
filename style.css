@@ -1,265 +1,380 @@
 * {
-    margin: 0;
-    padding: 0;
-
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    overflow-x: hidden;
-
+  overflow-x: hidden;
 }
 
 @font-face {
-    font-family: myfont;
-    src: url(DharmaGothicE-ExBoldItalic\(1\).ttf) format(truetype);
+  font-family: myfont;
+  src: url(DharmaGothicE-ExBoldItalic\(1\).ttf) format(truetype);
 }
 
-.text-lightning img{
-    bottom: 0px;
-    left: 638px;
-    position: absolute;
-    z-index: 1;
-    height: 110vh;
+.text-lightning img {
+  bottom: 0px;
+  left: 638px;
+  position: absolute;
+  z-index: 1;
+  height: 110vh;
 }
-
 
 .hero {
-    background-image: url(Assets/hero-bg-img.png);
-    background-size: cover;
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-position: center;
-    /* background-position: center center; */
-    height: 100vh;
-    display: flex;
+  background-image: url(Assets/background.png);
+  background-size: cover;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-position: center center; */
+  /* height: 100vh; */
+  display: flex;
 }
 
+
+
+.hero-text-1{
+  height: 45vh;
+}
+
+.hero-text-1 .sustainable {
+  position: relative;
+  top: 100px;
+  z-index: 999;
+}
+.hero-text-1 .tvet{
+  position: absolute;
+  z-index: 1000;
+}
+
+.hero-text-1 .skills{
+  position: relative;
+  top: 80px;
+
+}
+
+
+
+
+
+
+
 .hero-left {
-    width: 40vw;
-    height: 100vh;
-    /* background-color: aqua; */
+  width: 40vw;
+  height: 100vh;
+  /* background-color: aqua; */
 }
 
 .hero-left img {
-    /* margin-top: 3vh; */
-    width: 47vw;
-
+  /* margin-top: 3vh; */
+  width: 47vw;
 }
 
 .hero-right h1 {
-
-    font-family: 'myfont', sans-serif;
-    font-size: 130px;
-    color: white;
-    line-height: 98px;
-    text-shadow: 6px 6px 10px #001538;
-    margin-top: 3vh;
-    margin-left: 35px;
-    width: 357px;
-    
-
+  font-family: "myfont", sans-serif;
+  font-size: 130px;
+  color: white;
+  line-height: 98px;
+  text-shadow: 10px 10px 60px #1f4b97;
+  margin-top: 3vh;
+  margin-left: 35px;
+  width: 357px;
 }
 
 .hero-right {
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    margin-left: 7vw;
-    flex-direction: column;
+  width: 50%;
+  /* height: 100vh; */
+  display: flex;
+  margin-left: 7vw;
+  flex-direction: column;
 }
 
 .logo {
-    width: 48vw;
-    margin-top: 3vh;
-    display: flex;
-    justify-content: flex-end;
+  width: 48vw;
+  margin-top: 3vh;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .logo img {
-    height: 17vh;
+  /* height: 12vh; */
+  width: 110px;
 }
 
 .info {
-    display: flex;
-    width: 50vw;
-    height: 9vh;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 1vw;
-    margin-left: 8px;
-
+  display: flex;
+  /* height: 9vh; */
+  align-items: center;
+  /* justify-content: space-evenly; */
+  /* font-size: 24px; */
+  margin-left: 35px;
+  padding: 13px 0px;
 }
 
 .info ul {
-    display: flex;
-    color: white;
-    gap: 2vw;
-    font-weight: 500;
-    font-family: "Poppins", sans-serif;
-
+  display: flex;
+  color: white;
+  gap: 25px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
+  font-size: 16px;
+  align-items: center;
+  /* justify-content: center; */
 }
 
 .info p {
-    color: white;
-    font-family: "Poppins", sans-serif;
-    font-size: 1vw;
-    font-weight:500 ;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+  font-weight: 500;
 }
 
 .images {
-    width: 700px;
-    display: flex;
-    height: 9vh;
-    margin-top: 2.3vh;
-    justify-content: space-evenly;
-    margin-left: 30px;
+  width: 700px;
+  display: flex;
+  height: 9vh;
+  margin-top: 2.3vh;
+  justify-content: space-evenly;
+  margin-left: 30px;
 }
 
 .email {
+  background-image: url(Assets/email-bg.png);
+  display: flex;
+  background-size: cover;
+  color: white;
+  font-size: 1.2vw;
+  align-items: center;
+  width: 20vw;
+  justify-content: space-evenly;
+  border-radius: 31px;
+  height: 6.5vh;
+  margin-top: 4vh;
+  margin-left: 28vw;
+}
+.mobile-img {
+  display: none;
+}
+.email p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1vw;
+}
+
+@media (min-width: 1800px) and (max-width: 2000px) {
+  .email {
     background-image: url(Assets/email-bg.png);
     display: flex;
     background-size: cover;
     color: white;
     font-size: 1.2vw;
     align-items: center;
-    width: 20vw;
+    width: 22vw;
     justify-content: space-evenly;
     border-radius: 31px;
     height: 6.5vh;
-    margin-top: 4vh;
+    margin-top: 10vh;
     margin-left: 28vw;
-
-
-}
-.mobile-img{
+  }
+  .mobile-img {
     display: none;
+  }
+  .hero-right h1 {
+    text-shadow: 10px 10px 60px #001538;
+  
+  }
+  .hero-text-1 .skills{
+    position: relative;
+    top: 40px;
+  
+  }
+  
 }
-.email p{
-    font-family: "Poppins", sans-serif;
-    font-size: 1vw;
-
-}
-
-@media (min-width:1800px) and (max-width:2000px) {
-    .email {
-        background-image: url(Assets/email-bg.png);
-        display: flex;
-        background-size: cover;
-        color: white;
-        font-size: 1.2vw;
-        align-items: center;
-        width: 22vw;
-        justify-content: space-evenly;
-        border-radius: 31px;
-        height: 6.5vh;
-        margin-top: 10vh;
-        margin-left: 28vw;
-    
-    
-    }
-    .mobile-img{
-        display: none;
-    }
-    
-}
-@media (max-width:700px) {
-body{
+@media (max-width: 992px) {
+  body {
     overflow-x: hidden;
     height: 135vh;
     width: 100vw;
-}
-.text-lightning{
+  }
+  .text-lightning {
     display: none;
-}
-    .hero{
-        display: flex;
-        flex-direction: column;
-        background-image: url(Assets/Android\ Large\ -\ 2.png);
-        height: 140.2vh;
-        background-position: center;
-       
-        background-size: cover;
-    }
-    .hero-left{
-        display: none;
-    }
-    .hero-left img{
-        display:none;
-    }
-    .logo {
-        width: 100vw;
-        /* margin-top: 3vh; */
-        display: flex;
-        justify-content: center;
-    }
-    .hero-right img {
-        margin-top: 14px;
-        width: 40vw;
-        margin: 0 auto;
-    
-    }
-    .hero-right{
-        width: 100vw;
-        margin: 14px auto;
-    }
-    .hero-right h1 {
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url(Assets/Android\ Large\ -\ 2.png);
+    /* height: 140.2vh; */
+    background-position: center;
+    background-size: cover;
+  }
+  .hero-left {
+    display: none;
+  }
+  .hero-left img {
+    display: none;
+  }
+  .logo {
+    width: 100vw;
+    /* margin-top: 3vh; */
+    display: flex;
+    justify-content: center;
+  }
+  .hero-right img {
+    margin-top: 14px;
+    /* width: 133px; */
+    margin: 0 auto;
+  }
+  .hero-right {
+    width: 100vw;
+    margin: 14px auto;
+    /* height: 100%; */
+  }
+  .hero-right h1 {
+    font-family: "myfont", sans-serif;
+    font-size: 18vw;
+    color: white;
+    line-height: 82%;
+    text-shadow: 10px 10px 60px #001538;
+    margin-top: 3vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 96%;
+    text-align: center;
+  }
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 39vh;
+    margin-top: 5px;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    margin-left: 0px;
+    gap: 6px;
+  }
 
-        font-family: 'myfont', sans-serif;
-        font-size: 70px;
-        color: white;
-        line-height: 60px;
-        text-shadow: 6px 6px 10px #001538;
-        margin-top: 4vh;
-        margin-left: 5px;
-        width: 96%;
-        text-align: center;
-    }
-    .logo img{
-        height: 140px;
-        width: 140px;
-    }
-    .info {
-        display: none;
-    }
-    .images {
-        width: 90vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 50vh;
-        margin-top: 2.7vh;
-        justify-content: space-evenly;
-        /* background-color: red; */
-        margin-left: 30px;
-    }
-    
-.email {
+  .email {
     background-image: url(Assets/email-bg.png);
     width: 70vw;
-    display: flex;    
+    display: flex;
     align-items: center;
     margin-left: 65px;
-    height: 70vh;
-
-}
-.email img{
+    justify-content: center;
+    height: 10vh;
+    border-radius: 50px;
+    gap: 10px;
+  }
+  .email img {
     height: 20px;
     width: 20px;
     margin-left: 0px;
     margin-right: 0px;
-    
-}
-.email p{
+  }
+  .email p {
     font-family: "Poppins", sans-serif;
     font-size: 3.1vw;
+  }
+  .mobile-img {
+    display: flex;
+    /* width: 100%; */
+    margin: auto;
+    position: relative;
+    bottom: -10px;
+  }
+  .mobile-img img {
+    /* height: 98vw; */
+    /* width: 98vw; */
+    width: 100%;
+  }
+  .info p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .info ul {
+    gap: 0 24px;
+  }
+  .info ul {
+    display: flex;
+    color: white;
+    gap: 0 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    flex-wrap: wrap;
+    font-size: 15px;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+  }
+
+
+
+  .hero-text-1{
+    height: 25vh;
+  }
+  
+  .hero-text-1 .sustainable {
+    position: relative;
+    top: 55px;
+    z-index: 999;
+  }
+  .hero-text-1 .tvet{
+    position: absolute;
+    z-index: 1000;
+  }
+  
+  .hero-text-1 .skills{
+    position: relative;
+    top: 30px;
+  
+  }
+  
+
+
+
+
+
+
+
+
 }
-.mobile-img {
-    display: block;
-width: 100vw;
-}
-.mobile-img img{
-    height: 98vw;
-    width: 98vw;
-}
-    
+
+@media (max-width: 550px) {
+  .email {
+    height: 8vh;
+  }
+  .hero-text-1{
+    height: 25vh;
+  }
+  
+  .hero-text-1 .sustainable {
+    position: relative;
+    top: 52px;
+    z-index: 999;
+  }
+  .hero-text-1 .tvet{
+    position: absolute;
+    z-index: 1000;
+  }
+  .hero-text-1 h1{
+    font-size: 18.2vw;
+
+  }
+  
+  .hero-text-1 .skills{
+    position: relative;
+    top: 30px;
+  
+  }
+  
+
 }
