@@ -24,10 +24,10 @@ body {
 .hero {
     background-image: url(Assets/hero-bg-img.png);
     background-size: cover;
-    width: 100vw;
+    width: 1920px;
     background-repeat: no-repeat;
-    /* background-position: center; */
-    height: 100vh;
+    background-position: center center;
+    height: 1080px;
     display: flex;
 }
 
