@@ -164,6 +164,7 @@ body {
 }
 @media (max-width:700px) {
 body{
+    overflow-x: hidden;
     height: 140vh;
 }
     .hero{
