@@ -49,9 +49,11 @@ body {
     font-size: 120px;
     color: white;
     line-height: 14vh;
-    text-shadow: 2px 2px 30px #001538;
+    text-shadow: 2px 2px 50px #001538;
     margin-top: 3vh;
     margin-left: 25px;
+    width: 337px;
+    
 
 }
 
