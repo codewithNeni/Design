@@ -183,11 +183,28 @@ body {
     text-shadow: 10px 10px 60px #001538;
   
   }
-  .hero-text-1 .skills{
+  .hero-text-1{
+    height: 45vh;
+  }
+  
+  .hero-text-1 .sustainable {
     position: relative;
     top: 100px;
+    z-index: 999;
+  }
+  .hero-text-1 .tvet{
+    position: absolute;
+    z-index: 1000;
+  }
+  
+  .hero-text-1 .skills{
+    position: relative;
+    top: 80px;
   
   }
+  
+  
+  
   
 }
 @media (max-width: 992px) {
