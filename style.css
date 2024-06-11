@@ -181,10 +181,11 @@ body {
   }
   .hero-right h1 {
     text-shadow: 10px 10px 60px #001538;
+    font-size: 7vw;
   
   }
   .hero-text-1{
-    height: 50vh;
+    height: 44vh;
   }
   
   .hero-text-1 .sustainable {
