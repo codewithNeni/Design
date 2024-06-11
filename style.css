@@ -75,7 +75,7 @@ body {
   font-size: 130px;
   color: white;
   line-height: 98px;
-  text-shadow: 10px 10px 60% #001538;
+  text-shadow: 0px 0px 60px #000e26;
   
   margin-top: 3vh;
   margin-left: 35px;
@@ -95,6 +95,7 @@ body {
   margin-top: 3vh;
   display: flex;
   justify-content: flex-end;
+  background: transparent;
 }
 
 .logo img {
@@ -196,7 +197,7 @@ body {
   
   .hero-text-1 .sustainable {
     position: relative;
-    top: 105px;
+    top: 108px;
     z-index: 999;
   }
   .hero-text-1 .tvet{
@@ -206,7 +207,7 @@ body {
   
   .hero-text-1 .skills{
     position: relative;
-    top: 83px;
+    top: 90px;
   
   }
   
@@ -258,7 +259,7 @@ body {
     font-size: 18vw;
     color: white;
     line-height: 82%;
-    text-shadow: 10px 10px 60px #001538;
+    text-shadow: 0px 0px 60px #000e26;
     margin-top: 3vh;
     margin-left: 10px;
     margin-right: 10px;
