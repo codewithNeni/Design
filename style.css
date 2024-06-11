@@ -21,7 +21,7 @@ body {
 }
 
 .hero {
-  background-image: url(Assets/background.png);
+  background-image: url(Assets/this-background.png);
   background-size: cover;
   width: 100vw;
   background-repeat: no-repeat;
@@ -180,8 +180,9 @@ body {
     display: none;
   }
   .hero-right h1 {
-    text-shadow: 10px 10px 60px #001538;
-    font-size: 7vw;
+    text-shadow: 10px 10px 60px #000917;
+    font-size: 7.2vw;
+    width: 500px;
   
   }
   .hero-text-1{
@@ -193,7 +194,7 @@ body {
   
   .hero-text-1 .sustainable {
     position: relative;
-    top: 100px;
+    top: 105px;
     z-index: 999;
   }
   .hero-text-1 .tvet{
@@ -203,7 +204,7 @@ body {
   
   .hero-text-1 .skills{
     position: relative;
-    top: 74px;
+    top: 83px;
   
   }
   
