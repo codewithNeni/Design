@@ -258,7 +258,7 @@ body {
     font-size: 18vw;
     color: white;
     line-height: 82%;
-    text-shadow: 0px 0px 60px #000e26;
+    filter: drop-shadow(0px 34px 32px #001538);
     margin-top: 3vh;
     margin-left: 10px;
     margin-right: 10px;
@@ -390,7 +390,9 @@ body {
     z-index: 1000;
   }
   .hero-text-1 h1{
-    font-size: 18.2vw;
+    filter: drop-shadow(0px 34px 32px #001538);
+
+    font-size: 18.7vw;
 
   }
   
