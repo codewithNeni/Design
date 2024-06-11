@@ -34,12 +34,12 @@ body {
 
 
 .hero-text-1{
-  height: 45vh;
+  height: 46vh;
 }
 
 .hero-text-1 .sustainable {
   position: relative;
-  top: 100px;
+  top: 105px;
   z-index: 999;
 }
 .hero-text-1 .tvet{
@@ -49,7 +49,7 @@ body {
 
 .hero-text-1 .skills{
   position: relative;
-  top: 80px;
+  top: 90px;
 
 }
 
@@ -75,8 +75,7 @@ body {
   font-size: 130px;
   color: white;
   line-height: 98px;
-  text-shadow: 0px 0px 60px #000e26;
-  
+  filter: drop-shadow(0px 30px 20px #001538);  
   margin-top: 3vh;
   margin-left: 35px;
   width: 357px;
@@ -182,7 +181,7 @@ body {
     display: none;
   }
   .hero-right h1 {
-    text-shadow: 0px 0px 60px #000e26;
+    filter: drop-shadow(0px 34px 36px #001538);
     font-size: 7.2vw;
     width: 500px;
     font-weight: 500;
