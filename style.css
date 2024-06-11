@@ -21,7 +21,7 @@ body {
 }
 
 .hero {
-  background-image: url(Assets/this-background.png);
+  background-image: url(Assets/background.png);
   background-size: cover;
   width: 100vw;
   background-repeat: no-repeat;
@@ -75,7 +75,8 @@ body {
   font-size: 130px;
   color: white;
   line-height: 98px;
-  text-shadow: 10px 10px 60px #001538;
+  text-shadow: 10px 10px 60% #001538;
+  
   margin-top: 3vh;
   margin-left: 35px;
   width: 357px;
@@ -180,9 +181,10 @@ body {
     display: none;
   }
   .hero-right h1 {
-    text-shadow: 10px 10px 60px #000917;
+    text-shadow: 0px 0px 60px #000e26;
     font-size: 7.2vw;
     width: 500px;
+    font-weight: 500;
   
   }
   .hero-text-1{
